@@ -62,7 +62,7 @@ void writeData(Person myarray[], int& index )
 
   for(int i = 0; i < index; i++)
   {
-    myFile << myarray[i].fullName() << " ";
+    myFile << myarray[i].fullName();
     myFile << fixed << setprecision(2) << myarray[i].totalPay();
     myFile << endl;
   }
